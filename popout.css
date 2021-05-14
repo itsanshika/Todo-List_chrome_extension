@@ -1,0 +1,83 @@
+body {
+  width: 280px;
+  background:#ffc;
+  border-radius: 25px !important ;
+
+  font-family: 'Pangolin', cursive;
+}
+.body1{
+  text-align: center;
+ 
+}
+.todo-items, .todo-items li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-items li {
+  font-family: 'Patrick Hand', cursive;
+  
+  padding: 10px;
+  border-bottom: 2px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-items li:hover , li:focus{
+  background: rgba(0, 0, 0, 0.05);
+  
+    box-shadow:5px 5px 3px rgba(0,0,0,.5);
+    transform: scale(1);
+    position:relative;
+    z-index:5;
+  
+}
+
+.todo-items li.done .item
+{
+  text-decoration: line-through;
+}
+.todo-items div span
+{
+  margin: 5px;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.new-item
+{
+  display: none;
+  padding-bottom: 5px !important;
+}
+.item
+{
+  font-size: 1rem;
+ 
+}
+.itemDelete
+{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.btn
+{
+ 
+  background-color: #ffc;
+    color: black;
+    border: 2px solid #555555;
+    
+  
+}
+.btn:hover {
+  background-color: #555555;
+  color: white;
+
+}
+.btnst
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.create-todo
+{
+  margin-bottom: 5px;
+}

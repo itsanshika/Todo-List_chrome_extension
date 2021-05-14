@@ -1,0 +1,11 @@
+{
+  "name": "To Do List",
+  "version": "0.01",
+  "description": "A simple pop out todo list",
+  "browser_action": {
+    "default_title": "To Do List",
+    "default_popup": "popout.html",
+    "default_icon":"todo3.png"
+  },
+  "manifest_version": 2
+}
